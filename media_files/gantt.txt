@@ -1,0 +1,19 @@
+gantt
+	title Project Moonshine
+	dateFormat  YYYY-MM-DD
+	section Naomi
+	1st Rust PoC stage (TCP tunnel only) :a1, 2020-02-29, 180d
+	UDP solutions (datagram padding algorithm) :a2, after a1  , 180d
+    Self-discovery variants :a3, after a1, 180de
+	section Elimelech
+	Mahlon    :b1, 2020-04-26, 360d
+	Chilion   :b2, 2020-02-29, 360d
+    Ruth :b3, after b1, 2021-11-21
+    Orpah   :b4, after b2, 120d
+    section Nibiru
+    CI bootstrap :c1, 2020-03-29, 340d
+    Xhyve :c2, after c1, 180d
+    Picasso :c3, 2020-04-26, 2021-11-21
+    section Cutlerism
+    Secret :d1, 2020-03-29, 42d
+    Internal release, TBA :d2, after d1,
